@@ -4,6 +4,62 @@
  * @flow
  */
 
+/*
+// 引入React,及基础组件Component
+import React, { Component } from 'react';
+// 引入要使用的RN中的组件
+import {
+  AppRegistry,
+  StyleSheet,
+  Text,
+  View
+} from 'react-native';
+
+export default class ReactNativeLearn extends Component {
+  render() {
+    return (
+      <View style={styles.container}>
+        <Text style={styles.welcome}>
+          React Native! 🐂📒 
+        </Text>
+        <Text style={styles.instructions}>
+          To get started, edit index.ios.js
+        </Text>
+        <Text style={styles.instructions}>
+          Double tap cmd+R on your keyboard to reload,{'\n'}
+          cmd+D or shake for dev menu
+        </Text>
+      </View>
+    );
+  }
+}
+
+// 创建样式
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: '#F5FCFF',
+  },
+  welcome: {
+    fontSize: 20,
+    textAlign: 'center',
+    margin: 10,
+  },
+  instructions: {
+    textAlign: 'center',
+    color: '#333333',
+    marginBottom: 5,
+  },
+});
+
+
+AppRegistry.registerComponent('ReactNativeLearn', () => ReactNativeLearn);
+*/
+
+//------------------------------------------------------------------------
+
 /*   //Tutorial  helloWorld
 import React, { Component } from 'react';
 import { AppRegistry, Text } from 'react-native';
@@ -381,7 +437,7 @@ AppRegistry.registerComponent(
 
 // ---------------------------------------------------------
 
-/*
+
 // ListView
 
 import React, { Component } from 'react';
@@ -394,7 +450,7 @@ class ListViewBasics extends Component {
     const ds = new ListView.DataSource({rowHasChanged: (r1, r2) => r1 !== r2});
     this.state = {
       dataSource: ds.cloneWithRows([
-        'John', 'Joel', 'James', 'Jimmy', 'Jackson', 'Jillian', 'Julie', 'Devin','111111111111111',
+        'Jo😍hn', 'Joel', 'James', 'Jimmy', 'Jackson', 'Jillian', 'Julie', 'Devin','111111111111111',
         'John', 'Joel', 'James', 'Jimmy', 'Jackson', 'Jillian', 'Julie', 'Devin','2222222222222222',
         'John', 'Joel', 'James', 'Jimmy', 'Jackson', 'Jillian', 'Julie', 'Devin','33333333333333',
         'John', 'Joel', 'James', 'Jimmy', 'Jackson', 'Jillian', 'Julie', 'Devin','44444444444444',
@@ -420,7 +476,7 @@ class ListViewBasics extends Component {
 // App registration and rendering
 AppRegistry.registerComponent('ReactNativeLearn', () => ListViewBasics);
 
-*/
+
 
 // ---------------------------------------------------------
 
